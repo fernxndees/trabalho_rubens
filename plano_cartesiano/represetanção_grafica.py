@@ -23,7 +23,13 @@ pontos_x = [2]
 pontos_y = [3]
 
 
-plt.scatter(pontos_x, pontos_y, color='red', label='Pontos', s=100)  
+plt.scatter(pontos_x, pontos_y, color='red', label='Pontos', s=100)
+
+#dominio e imagem
+dominio = r"D = { x ∈ ℝ | -5 ≤ x ≤ 5 }"
+imagem = r"I = { f(x) ∈ ℝ | f(x) ≥ -4 }"  
+print(dominio)
+print(imagem)
 
 #Cria a imagem do plano cartesiano
 plt.savefig('plano_cartesiano.png', format='png')
